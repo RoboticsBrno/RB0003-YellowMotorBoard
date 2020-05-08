@@ -8506,40 +8506,40 @@ Source: www.kingbright.com</description>
 <package name="YELLOW_MOTOR">
 <pad name="P$1" x="-4.5" y="0" drill="2.5"/>
 <pad name="P$2" x="4.5" y="0" drill="2.5"/>
-<wire x1="-9" y1="3" x2="-10" y2="2" width="0.1524" layer="21"/>
-<wire x1="-10" y1="2" x2="-10" y2="-21" width="0.1524" layer="21"/>
-<wire x1="-10" y1="-21" x2="-9" y2="-22" width="0.1524" layer="21"/>
-<wire x1="-9" y1="-22" x2="-3" y2="-22" width="0.1524" layer="21"/>
-<wire x1="-3" y1="-22" x2="3" y2="-22" width="0.1524" layer="21"/>
-<wire x1="3" y1="-22" x2="9" y2="-22" width="0.1524" layer="21"/>
-<wire x1="9" y1="-22" x2="10" y2="-21" width="0.1524" layer="21"/>
-<wire x1="10" y1="-21" x2="10" y2="2" width="0.1524" layer="21"/>
-<wire x1="10" y1="2" x2="9" y2="3" width="0.1524" layer="21"/>
-<wire x1="9" y1="3" x2="5" y2="3" width="0.1524" layer="21"/>
-<wire x1="5" y1="3" x2="-5" y2="3" width="0.1524" layer="21"/>
-<wire x1="-5" y1="3" x2="-9" y2="3" width="0.1524" layer="21"/>
-<wire x1="-5" y1="3" x2="-5" y2="5.5" width="0.1524" layer="21"/>
-<wire x1="-5" y1="5.5" x2="5" y2="5.5" width="0.1524" layer="21"/>
-<wire x1="5" y1="5.5" x2="5" y2="3" width="0.1524" layer="21"/>
-<wire x1="-3" y1="-22" x2="-3" y2="-24" width="0.1524" layer="21"/>
-<wire x1="-3" y1="-24" x2="-1" y2="-24" width="0.1524" layer="21"/>
-<wire x1="-1" y1="-24" x2="1" y2="-24" width="0.1524" layer="21"/>
-<wire x1="1" y1="-24" x2="3" y2="-24" width="0.1524" layer="21"/>
-<wire x1="3" y1="-24" x2="3" y2="-22" width="0.1524" layer="21"/>
-<wire x1="-1" y1="-24" x2="-1" y2="-26" width="0.1524" layer="21"/>
-<wire x1="-1" y1="-32" x2="1" y2="-32" width="0.1524" layer="21"/>
-<wire x1="1" y1="-26" x2="1" y2="-24" width="0.1524" layer="21"/>
-<wire x1="1" y1="-26" x2="2" y2="-26" width="0.1524" layer="21"/>
-<wire x1="2" y1="-26" x2="2" y2="-29" width="0.1524" layer="21"/>
-<wire x1="2" y1="-29" x2="2.5" y2="-29" width="0.1524" layer="21"/>
-<wire x1="2.5" y1="-29" x2="2.5" y2="-32" width="0.1524" layer="21"/>
-<wire x1="2.5" y1="-32" x2="1" y2="-32" width="0.1524" layer="21"/>
-<wire x1="-1" y1="-32" x2="-2.5" y2="-32" width="0.1524" layer="21"/>
-<wire x1="-2.5" y1="-32" x2="-2.5" y2="-29" width="0.1524" layer="21"/>
-<wire x1="-2.5" y1="-29" x2="-2" y2="-29" width="0.1524" layer="21"/>
-<wire x1="-2" y1="-29" x2="-2" y2="-26" width="0.1524" layer="21"/>
-<wire x1="-2" y1="-26" x2="-1" y2="-26" width="0.1524" layer="21"/>
-<wire x1="-1" y1="-26" x2="1" y2="-26" width="0.1524" layer="21"/>
+<wire x1="-9" y1="3" x2="-10" y2="2" width="0.1524" layer="48"/>
+<wire x1="-10" y1="2" x2="-10" y2="-21" width="0.1524" layer="48"/>
+<wire x1="-10" y1="-21" x2="-9" y2="-22" width="0.1524" layer="48"/>
+<wire x1="-9" y1="-22" x2="-3" y2="-22" width="0.1524" layer="48"/>
+<wire x1="-3" y1="-22" x2="3" y2="-22" width="0.1524" layer="48"/>
+<wire x1="3" y1="-22" x2="9" y2="-22" width="0.1524" layer="48"/>
+<wire x1="9" y1="-22" x2="10" y2="-21" width="0.1524" layer="48"/>
+<wire x1="10" y1="-21" x2="10" y2="2" width="0.1524" layer="48"/>
+<wire x1="10" y1="2" x2="9" y2="3" width="0.1524" layer="48"/>
+<wire x1="9" y1="3" x2="5" y2="3" width="0.1524" layer="48"/>
+<wire x1="5" y1="3" x2="-5" y2="3" width="0.1524" layer="48"/>
+<wire x1="-5" y1="3" x2="-9" y2="3" width="0.1524" layer="48"/>
+<wire x1="-5" y1="3" x2="-5" y2="5.5" width="0.1524" layer="48"/>
+<wire x1="-5" y1="5.5" x2="5" y2="5.5" width="0.1524" layer="48"/>
+<wire x1="5" y1="5.5" x2="5" y2="3" width="0.1524" layer="48"/>
+<wire x1="-3" y1="-22" x2="-3" y2="-24" width="0.1524" layer="48"/>
+<wire x1="-3" y1="-24" x2="-1" y2="-24" width="0.1524" layer="48"/>
+<wire x1="-1" y1="-24" x2="1" y2="-24" width="0.1524" layer="48"/>
+<wire x1="1" y1="-24" x2="3" y2="-24" width="0.1524" layer="48"/>
+<wire x1="3" y1="-24" x2="3" y2="-22" width="0.1524" layer="48"/>
+<wire x1="-1" y1="-24" x2="-1" y2="-26" width="0.1524" layer="48"/>
+<wire x1="-1" y1="-32" x2="1" y2="-32" width="0.1524" layer="48"/>
+<wire x1="1" y1="-26" x2="1" y2="-24" width="0.1524" layer="48"/>
+<wire x1="1" y1="-26" x2="2" y2="-26" width="0.1524" layer="48"/>
+<wire x1="2" y1="-26" x2="2" y2="-29" width="0.1524" layer="48"/>
+<wire x1="2" y1="-29" x2="2.5" y2="-29" width="0.1524" layer="48"/>
+<wire x1="2.5" y1="-29" x2="2.5" y2="-32" width="0.1524" layer="48"/>
+<wire x1="2.5" y1="-32" x2="1" y2="-32" width="0.1524" layer="48"/>
+<wire x1="-1" y1="-32" x2="-2.5" y2="-32" width="0.1524" layer="48"/>
+<wire x1="-2.5" y1="-32" x2="-2.5" y2="-29" width="0.1524" layer="48"/>
+<wire x1="-2.5" y1="-29" x2="-2" y2="-29" width="0.1524" layer="48"/>
+<wire x1="-2" y1="-29" x2="-2" y2="-26" width="0.1524" layer="48"/>
+<wire x1="-2" y1="-26" x2="-1" y2="-26" width="0.1524" layer="48"/>
+<wire x1="-1" y1="-26" x2="1" y2="-26" width="0.1524" layer="48"/>
 </package>
 </packages>
 <symbols>

@@ -8750,7 +8750,7 @@ Source: www.kingbright.com</description>
 <attribute name="PRICE_200PLUS" value="$0.0021"/>
 <attribute name="PRICE_DATE" value="2020-05-08"/>
 </part>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0805" value="330p/50V">
+<part name="C3" library="rcl" deviceset="C-EU" device="C0805" value="330n/50V">
 <attribute name="DESCRIPTION" value=" MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 330NF 50V 0805 ROHS"/>
 <attribute name="EXTENDED" value="NO"/>
 <attribute name="LCSC_ID" value="C1740"/>
@@ -8762,7 +8762,7 @@ Source: www.kingbright.com</description>
 <attribute name="PRICE_200PLUS" value="$0.0109"/>
 <attribute name="PRICE_DATE" value="2020-05-08"/>
 </part>
-<part name="C4" library="rcl" deviceset="C-EU" device="C0805" value="330p/50V">
+<part name="C4" library="rcl" deviceset="C-EU" device="C0805" value="330n/50V">
 <attribute name="DESCRIPTION" value=" MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 330NF 50V 0805 ROHS"/>
 <attribute name="EXTENDED" value="NO"/>
 <attribute name="LCSC_ID" value="C1740"/>
@@ -8774,7 +8774,7 @@ Source: www.kingbright.com</description>
 <attribute name="PRICE_200PLUS" value="$0.0109"/>
 <attribute name="PRICE_DATE" value="2020-05-08"/>
 </part>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="330p/50V">
+<part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="330n/50V">
 <attribute name="DESCRIPTION" value=" MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 330NF 50V 0805 ROHS"/>
 <attribute name="EXTENDED" value="NO"/>
 <attribute name="LCSC_ID" value="C1740"/>
@@ -10464,7 +10464,7 @@ Robotarna</text>
 <attribute name="DESCRIPTION" x="22.86" y="38.1" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="EXTENDED" x="22.86" y="38.1" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
-<instance part="U$3" gate="G$1" x="22.86" y="48.26" smashed="yes" rot="MR0"/>
+<instance part="U$3" gate="G$1" x="22.86" y="48.26" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -10516,27 +10516,17 @@ Robotarna</text>
 <pinref part="C7" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="60.96" y1="111.76" x2="53.34" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="P1" gate="A" pin="2"/>
-<label x="55.88" y="111.76" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="JP1" gate="A" pin="5"/>
 <wire x1="22.86" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
 <label x="30.48" y="111.76" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="P1" gate="A" pin="2"/>
+<wire x1="53.34" y1="111.76" x2="60.96" y2="111.76" width="0.1524" layer="91"/>
+<label x="55.88" y="111.76" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="B" class="0">
-<segment>
-<pinref part="JP1" gate="A" pin="4"/>
-<wire x1="22.86" y1="109.22" x2="30.48" y2="109.22" width="0.1524" layer="91"/>
-<label x="30.48" y="109.22" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="53.34" y1="109.22" x2="60.96" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="P1" gate="A" pin="3"/>
-<label x="55.88" y="109.22" size="1.778" layer="95"/>
-</segment>
 <segment>
 <wire x1="76.2" y1="22.86" x2="76.2" y2="17.78" width="0.1524" layer="91"/>
 <label x="76.2" y="17.78" size="1.27" layer="95" rot="R270" xref="yes"/>
@@ -10553,18 +10543,18 @@ Robotarna</text>
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 </segment>
-</net>
-<net name="A" class="0">
+<segment>
+<pinref part="P1" gate="A" pin="4"/>
+<wire x1="53.34" y1="106.68" x2="60.96" y2="106.68" width="0.1524" layer="91"/>
+<label x="55.88" y="106.68" size="1.778" layer="95"/>
+</segment>
 <segment>
 <pinref part="JP1" gate="A" pin="3"/>
 <wire x1="22.86" y1="106.68" x2="30.48" y2="106.68" width="0.1524" layer="91"/>
-<label x="30.48" y="106.68" size="1.27" layer="95" xref="yes"/>
+<label x="30.48" y="106.68" size="1.4224" layer="95" xref="yes"/>
 </segment>
-<segment>
-<wire x1="60.96" y1="106.68" x2="53.34" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="P1" gate="A" pin="4"/>
-<label x="55.88" y="106.68" size="1.778" layer="95"/>
-</segment>
+</net>
+<net name="A" class="0">
 <segment>
 <wire x1="63.5" y1="22.86" x2="63.5" y2="17.78" width="0.1524" layer="91"/>
 <label x="63.5" y="17.78" size="1.27" layer="95" rot="R270" xref="yes"/>
@@ -10581,6 +10571,16 @@ Robotarna</text>
 <pinref part="U$1" gate="G$1" pin="OUT"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="P1" gate="A" pin="3"/>
+<wire x1="53.34" y1="109.22" x2="60.96" y2="109.22" width="0.1524" layer="91"/>
+<label x="55.88" y="109.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="4"/>
+<wire x1="22.86" y1="109.22" x2="30.48" y2="109.22" width="0.1524" layer="91"/>
+<label x="30.48" y="109.22" size="1.4224" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="M-" class="0">
 <segment>
@@ -10591,18 +10591,18 @@ Robotarna</text>
 <junction x="33.02" y="38.1"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <pinref part="C5" gate="G$1" pin="2"/>
-<pinref part="U$3" gate="G$1" pin="P$2"/>
+<pinref part="U$3" gate="G$1" pin="P$1"/>
 <wire x1="27.94" y1="48.26" x2="33.02" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="6"/>
-<wire x1="22.86" y1="114.3" x2="30.48" y2="114.3" width="0.1524" layer="91"/>
-<label x="30.48" y="114.3" size="1.27" layer="95" xref="yes"/>
+<wire x1="53.34" y1="101.6" x2="60.96" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="P1" gate="A" pin="6"/>
+<label x="55.88" y="101.6" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="53.34" y1="114.3" x2="60.96" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="P1" gate="A" pin="1"/>
-<label x="55.88" y="114.3" size="1.778" layer="95"/>
+<pinref part="JP1" gate="A" pin="1"/>
+<wire x1="22.86" y1="101.6" x2="30.48" y2="101.6" width="0.1524" layer="91"/>
+<label x="30.48" y="101.6" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="M+" class="0">
@@ -10614,18 +10614,18 @@ Robotarna</text>
 <junction x="12.7" y="38.1"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<pinref part="U$3" gate="G$1" pin="P$1"/>
-<wire x1="12.7" y1="48.26" x2="17.78" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="P$2"/>
+<wire x1="17.78" y1="48.26" x2="12.7" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="1"/>
-<wire x1="22.86" y1="101.6" x2="30.48" y2="101.6" width="0.1524" layer="91"/>
-<label x="30.48" y="101.6" size="1.27" layer="95" xref="yes"/>
+<wire x1="53.34" y1="114.3" x2="60.96" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="P1" gate="A" pin="1"/>
+<label x="55.88" y="114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="53.34" y1="101.6" x2="60.96" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="P1" gate="A" pin="6"/>
-<label x="55.88" y="101.6" size="1.778" layer="95"/>
+<pinref part="JP1" gate="A" pin="6"/>
+<wire x1="22.86" y1="114.3" x2="30.48" y2="114.3" width="0.1524" layer="91"/>
+<label x="30.48" y="114.3" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -10656,11 +10656,6 @@ Robotarna</text>
 <pinref part="C2" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="60.96" y1="104.14" x2="53.34" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="P1" gate="A" pin="5"/>
-<label x="55.88" y="104.14" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="JP1" gate="A" pin="2"/>
 <wire x1="22.86" y1="104.14" x2="30.48" y2="104.14" width="0.1524" layer="91"/>
 <label x="30.48" y="104.14" size="1.27" layer="95" xref="yes"/>
@@ -10679,6 +10674,11 @@ Robotarna</text>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
 <wire x1="76.2" y1="48.26" x2="76.2" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="LED_B" gate="G$1" pin="A"/>
+</segment>
+<segment>
+<pinref part="P1" gate="A" pin="5"/>
+<wire x1="53.34" y1="104.14" x2="60.96" y2="104.14" width="0.1524" layer="91"/>
+<label x="55.88" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED_POWER" class="0">

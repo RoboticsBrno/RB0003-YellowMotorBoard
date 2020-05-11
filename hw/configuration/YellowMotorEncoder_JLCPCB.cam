@@ -82,6 +82,7 @@
                     },
                     "filename_format": "%PREFIX/%N_profile.gbr",
                     "layers": [
+                        46
                     ],
                     "milling": true,
                     "polarity": "positive",
@@ -192,8 +193,7 @@
                     "filename_format": "%PREFIX/%N_silkscreen_top.gbr",
                     "layers": [
                         21,
-                        51,
-                        48
+                        51
                     ],
                     "milling": false,
                     "name": "Silkscreen Top",
@@ -275,7 +275,7 @@
             ]
         }
     ],
-    "timestamp": "2020-05-10T00:07:01",
+    "timestamp": "2020-05-10T01:07:19",
     "type": "EAGLE CAM job",
     "units": "metric",
     "version": "9.2.0"

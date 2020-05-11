@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6810,26 +6810,26 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <packages>
 <package name="SOT23">
 <description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
-<wire x1="1.45" y1="0.55" x2="1.45" y2="-0.55" width="0.2" layer="51"/>
-<wire x1="1.45" y1="-0.55" x2="-1.45" y2="-0.55" width="0.2" layer="51"/>
-<wire x1="-1.45" y1="-0.55" x2="-1.45" y2="0.55" width="0.2" layer="51"/>
-<wire x1="-1.45" y1="0.55" x2="1.45" y2="0.55" width="0.2" layer="51"/>
-<wire x1="-1.45" y1="-0.2" x2="-1.45" y2="0.55" width="0.2" layer="21"/>
-<wire x1="-1.45" y1="0.55" x2="-0.65" y2="0.55" width="0.2" layer="21"/>
-<wire x1="1.45" y1="0.55" x2="1.45" y2="-0.2" width="0.2" layer="21"/>
-<wire x1="0.65" y1="0.55" x2="1.45" y2="0.55" width="0.2" layer="21"/>
-<smd name="3" x="0" y="0.96" dx="1.05" dy="0.61" layer="1" roundness="50" rot="R90"/>
-<smd name="2" x="0.95" y="-0.96" dx="1.05" dy="0.61" layer="1" roundness="50" rot="R270"/>
-<smd name="1" x="-0.95" y="-0.96" dx="1.05" dy="0.61" layer="1" roundness="50" rot="R270"/>
-<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.2" y1="0.65" x2="0.2" y2="1.25" layer="51"/>
-<rectangle x1="0.75" y1="-1.25" x2="1.15" y2="-0.65" layer="51"/>
-<rectangle x1="-1.15" y1="-1.25" x2="-0.75" y2="-0.65" layer="51"/>
-<wire x1="1.7" y1="1.685" x2="-1.7" y2="1.685" width="0.05" layer="39"/>
-<wire x1="-1.7" y1="1.685" x2="-1.7" y2="-1.685" width="0.05" layer="39"/>
-<wire x1="-1.7" y1="-1.685" x2="1.7" y2="-1.685" width="0.05" layer="39"/>
-<wire x1="1.7" y1="-1.685" x2="1.7" y2="1.685" width="0.05" layer="39"/>
+<wire x1="-0.55" y1="1.45" x2="0.55" y2="1.45" width="0.2" layer="51"/>
+<wire x1="0.55" y1="1.45" x2="0.55" y2="-1.45" width="0.2" layer="51"/>
+<wire x1="0.55" y1="-1.45" x2="-0.55" y2="-1.45" width="0.2" layer="51"/>
+<wire x1="-0.55" y1="-1.45" x2="-0.55" y2="1.45" width="0.2" layer="51"/>
+<wire x1="0.2" y1="-1.45" x2="-0.55" y2="-1.45" width="0.2" layer="21"/>
+<wire x1="-0.55" y1="-1.45" x2="-0.55" y2="-0.65" width="0.2" layer="21"/>
+<wire x1="-0.55" y1="1.45" x2="0.2" y2="1.45" width="0.2" layer="21"/>
+<wire x1="-0.55" y1="0.65" x2="-0.55" y2="1.45" width="0.2" layer="21"/>
+<smd name="3" x="-0.96" y="0" dx="1.05" dy="0.61" layer="1" roundness="50" rot="R180"/>
+<smd name="2" x="0.96" y="0.95" dx="1.05" dy="0.61" layer="1" roundness="50"/>
+<smd name="1" x="0.96" y="-0.95" dx="1.05" dy="0.61" layer="1" roundness="50"/>
+<text x="-1.905" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.175" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.15" y1="-0.3" x2="-0.75" y2="0.3" layer="51" rot="R90"/>
+<rectangle x1="0.75" y1="0.65" x2="1.15" y2="1.25" layer="51" rot="R90"/>
+<rectangle x1="0.75" y1="-1.25" x2="1.15" y2="-0.65" layer="51" rot="R90"/>
+<wire x1="-1.685" y1="1.7" x2="-1.685" y2="-1.7" width="0.05" layer="39"/>
+<wire x1="-1.685" y1="-1.7" x2="1.685" y2="-1.7" width="0.05" layer="39"/>
+<wire x1="1.685" y1="-1.7" x2="1.685" y2="1.7" width="0.05" layer="39"/>
+<wire x1="1.685" y1="1.7" x2="-1.685" y2="1.7" width="0.05" layer="39"/>
 </package>
 </packages>
 <packages3d>

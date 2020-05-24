@@ -3,7 +3,7 @@
 <eagle version="9.6.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
@@ -141,8 +141,8 @@ B
 A
 VCC
 M+</text>
-<rectangle x1="25.5" y1="19" x2="30.4" y2="21.6" layer="29"/>
-<rectangle x1="25.4" y1="1.3" x2="30.4" y2="3.6" layer="29"/>
+<rectangle x1="25.4" y1="19.3" x2="30.3" y2="21.6" layer="29"/>
+<rectangle x1="25.3" y1="0.7" x2="30.2" y2="3" layer="29"/>
 <hole x="8" y="20.5" drill="1.152"/>
 <hole x="8" y="1.9" drill="1.152"/>
 <text x="10.652" y="1.052" size="0.8128" layer="51" font="vector" ratio="20" align="top-left">RB0003-YellowMotorEncoder</text>
@@ -2042,17 +2042,31 @@ JarekParal (2020-03-14)
 <contactref element="U$3" pad="P$1"/>
 <wire x1="31.4" y1="12.07" x2="31.4" y2="15.7" width="1.27" layer="1"/>
 <polygon width="0.4064" layer="1" rank="2">
-<vertex x="19" y="19"/>
-<vertex x="32" y="19"/>
-<vertex x="33" y="18"/>
-<vertex x="33" y="13.5"/>
-<vertex x="32.5" y="13"/>
+<vertex x="19" y="18.8"/>
+<vertex x="33.2" y="18.8"/>
+<vertex x="34.5" y="17.5"/>
+<vertex x="34.5" y="14.5"/>
+<vertex x="33" y="13"/>
 <vertex x="29.5" y="13"/>
 <vertex x="27.5" y="15"/>
 <vertex x="22" y="15"/>
 <vertex x="21" y="16"/>
 <vertex x="19" y="16"/>
 </polygon>
+<polygon width="0.1524" layer="16">
+<vertex x="27" y="16.5"/>
+<vertex x="27" y="14.5"/>
+<vertex x="27.5" y="14"/>
+<vertex x="34.5" y="14"/>
+<vertex x="35" y="14.5"/>
+<vertex x="35" y="16.5"/>
+<vertex x="35" y="17"/>
+<vertex x="34.5" y="17.5"/>
+<vertex x="28" y="17.5"/>
+<vertex x="27.5" y="17.5"/>
+<vertex x="27" y="17"/>
+</polygon>
+<wire x1="31.4" y1="15.7" x2="31.5" y2="19.33" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="M+">
 <contactref element="C3" pad="1"/>
@@ -2066,14 +2080,24 @@ JarekParal (2020-03-14)
 <vertex x="18.9" y="5"/>
 <vertex x="18.9" y="3.6"/>
 <vertex x="19" y="3.5"/>
-<vertex x="32" y="3.5"/>
-<vertex x="33" y="4.5"/>
-<vertex x="33" y="9"/>
-<vertex x="32.5" y="9.5"/>
+<vertex x="33" y="3.5"/>
+<vertex x="34.5" y="5"/>
+<vertex x="34.5" y="8"/>
+<vertex x="33" y="9.5"/>
 <vertex x="29.5" y="9.5"/>
 <vertex x="27.5" y="7.5"/>
 <vertex x="22.5" y="7.5"/>
 <vertex x="20.8" y="5.8"/>
+</polygon>
+<polygon width="0.1524" layer="16">
+<vertex x="34.5" y="8.5"/>
+<vertex x="27.5" y="8.5"/>
+<vertex x="27" y="8"/>
+<vertex x="27" y="5"/>
+<vertex x="27.5" y="4.5"/>
+<vertex x="34.5" y="4.5"/>
+<vertex x="35" y="5"/>
+<vertex x="35" y="8"/>
 </polygon>
 </signal>
 <signal name="VCC">

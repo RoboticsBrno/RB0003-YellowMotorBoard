@@ -72,6 +72,17 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
+<description>Motor
+&lt;p&gt;
+&lt;b&gt;Author: &lt;/b&gt;
+
+&lt;a href="https://www.github.com/jarekparal/"&gt;Jaroslav Páral (jarekparal)&lt;/a&gt;
+
+&lt;br /&gt;
+&lt;br /&gt;
+
+&lt;b&gt;License: &lt;/b&gt;
+&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;Creative Commons Attribution-ShareAlike 4.0 International&lt;/a&gt;</description>
 <packages>
 <package name="YELLOW_MOTOR">
 <pad name="P$1" x="-4.5" y="0" drill="2.5"/>

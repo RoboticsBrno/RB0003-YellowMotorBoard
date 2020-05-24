@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -71,6 +71,24 @@
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
+<description>Diodes
+&lt;p&gt;
+
+Some footprint modified according &lt;a href="https://www.ipc.org/TOC/IPC-7351.pdf"&gt;IPC-7351&lt;/a&gt; (using &lt;a href="https://www.pcblibraries.com/forum/library-expert-2019-07-released_topic2571.html"&gt;Library Expert Pro 2019.7&lt;/a&gt;): 
+&lt;ul&gt;
+&lt;li&gt;SOD123
+&lt;li&gt;SOT23
+&lt;/ul&gt;
+&lt;p&gt;
+
+&lt;b&gt;Author: &lt;/b&gt;
+&lt;a href="https://www.github.com/cednik/"&gt;Jakub Streit (cednik)&lt;/a&gt;
+
+&lt;br /&gt;
+&lt;br /&gt;
+
+&lt;b&gt;License: &lt;/b&gt;
+&lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;Creative Commons Attribution-ShareAlike 4.0 International&lt;/a&gt;</description>
 <packages>
 <package name="SOD323">
 <description>&lt;b&gt;Diode Package&lt;/b&gt; Reflow soldering&lt;p&gt;
@@ -89,26 +107,26 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 </package>
 <package name="SOT23">
 <description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
-<wire x1="1.45" y1="0.55" x2="1.45" y2="-0.55" width="0.2" layer="51"/>
-<wire x1="1.45" y1="-0.55" x2="-1.45" y2="-0.55" width="0.2" layer="51"/>
-<wire x1="-1.45" y1="-0.55" x2="-1.45" y2="0.55" width="0.2" layer="51"/>
-<wire x1="-1.45" y1="0.55" x2="1.45" y2="0.55" width="0.2" layer="51"/>
-<wire x1="-1.45" y1="-0.2" x2="-1.45" y2="0.55" width="0.2" layer="21"/>
-<wire x1="-1.45" y1="0.55" x2="-0.65" y2="0.55" width="0.2" layer="21"/>
-<wire x1="1.45" y1="0.55" x2="1.45" y2="-0.2" width="0.2" layer="21"/>
-<wire x1="0.65" y1="0.55" x2="1.45" y2="0.55" width="0.2" layer="21"/>
-<smd name="3" x="0" y="0.96" dx="1.05" dy="0.61" layer="1" roundness="50" rot="R90"/>
-<smd name="2" x="0.95" y="-0.96" dx="1.05" dy="0.61" layer="1" roundness="50" rot="R270"/>
-<smd name="1" x="-0.95" y="-0.96" dx="1.05" dy="0.61" layer="1" roundness="50" rot="R270"/>
-<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.2" y1="0.65" x2="0.2" y2="1.25" layer="51"/>
-<rectangle x1="0.75" y1="-1.25" x2="1.15" y2="-0.65" layer="51"/>
-<rectangle x1="-1.15" y1="-1.25" x2="-0.75" y2="-0.65" layer="51"/>
-<wire x1="1.7" y1="1.685" x2="-1.7" y2="1.685" width="0.05" layer="39"/>
-<wire x1="-1.7" y1="1.685" x2="-1.7" y2="-1.685" width="0.05" layer="39"/>
-<wire x1="-1.7" y1="-1.685" x2="1.7" y2="-1.685" width="0.05" layer="39"/>
-<wire x1="1.7" y1="-1.685" x2="1.7" y2="1.685" width="0.05" layer="39"/>
+<wire x1="-0.55" y1="1.45" x2="0.55" y2="1.45" width="0.2" layer="51"/>
+<wire x1="0.55" y1="1.45" x2="0.55" y2="-1.45" width="0.2" layer="51"/>
+<wire x1="0.55" y1="-1.45" x2="-0.55" y2="-1.45" width="0.2" layer="51"/>
+<wire x1="-0.55" y1="-1.45" x2="-0.55" y2="1.45" width="0.2" layer="51"/>
+<wire x1="0.2" y1="-1.45" x2="-0.55" y2="-1.45" width="0.2" layer="21"/>
+<wire x1="-0.55" y1="-1.45" x2="-0.55" y2="-0.65" width="0.2" layer="21"/>
+<wire x1="-0.55" y1="1.45" x2="0.2" y2="1.45" width="0.2" layer="21"/>
+<wire x1="-0.55" y1="0.65" x2="-0.55" y2="1.45" width="0.2" layer="21"/>
+<smd name="3" x="-0.96" y="0" dx="1.05" dy="0.61" layer="1" roundness="50" rot="R180"/>
+<smd name="2" x="0.96" y="0.95" dx="1.05" dy="0.61" layer="1" roundness="50"/>
+<smd name="1" x="0.96" y="-0.95" dx="1.05" dy="0.61" layer="1" roundness="50"/>
+<text x="-1.905" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.175" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.15" y1="-0.3" x2="-0.75" y2="0.3" layer="51" rot="R90"/>
+<rectangle x1="0.75" y1="0.65" x2="1.15" y2="1.25" layer="51" rot="R90"/>
+<rectangle x1="0.75" y1="-1.25" x2="1.15" y2="-0.65" layer="51" rot="R90"/>
+<wire x1="-1.685" y1="1.7" x2="-1.685" y2="-1.7" width="0.05" layer="39"/>
+<wire x1="-1.685" y1="-1.7" x2="1.685" y2="-1.7" width="0.05" layer="39"/>
+<wire x1="1.685" y1="-1.7" x2="1.685" y2="1.7" width="0.05" layer="39"/>
+<wire x1="1.685" y1="1.7" x2="-1.685" y2="1.7" width="0.05" layer="39"/>
 </package>
 <package name="SOD123">
 <description>&lt;b&gt;Diode&lt;/b&gt;</description>

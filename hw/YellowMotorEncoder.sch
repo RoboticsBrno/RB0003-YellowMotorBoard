@@ -6953,8 +6953,8 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <library name="motor">
 <packages>
 <package name="YELLOW_MOTOR">
-<pad name="P$1" x="-4.5" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="P$2" x="4.5" y="0" drill="1" shape="long" rot="R270"/>
+<pad name="P$1" x="-4.5" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$2" x="4.5" y="0" drill="0.8" shape="long" rot="R270"/>
 <wire x1="-9" y1="3" x2="-10" y2="2" width="0.1524" layer="48"/>
 <wire x1="-10" y1="2" x2="-10" y2="-21" width="0.1524" layer="48"/>
 <wire x1="-10" y1="-21" x2="-9" y2="-22" width="0.1524" layer="48"/>
@@ -6987,41 +6987,38 @@ Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 <wire x1="-2" y1="-29" x2="-2" y2="-26" width="0.1524" layer="48"/>
 <wire x1="-2" y1="-26" x2="-1" y2="-26" width="0.1524" layer="48"/>
 <wire x1="-1" y1="-26" x2="1" y2="-26" width="0.1524" layer="48"/>
-<wire x1="-4" y1="2.008" x2="-4" y2="-2.5" width="0" layer="46"/>
-<wire x1="-4" y1="-2.5" x2="-4.5" y2="-3" width="0" layer="46" curve="-90"/>
-<wire x1="-4.5" y1="-3" x2="-5" y2="-2.5" width="0" layer="46" curve="-90"/>
-<wire x1="-5" y1="-2.5" x2="-5" y2="2.008" width="0" layer="46"/>
-<wire x1="-5" y1="2.008" x2="-4.5" y2="2.508" width="0" layer="46" curve="-90"/>
-<wire x1="-4.5" y1="2.508" x2="-4" y2="2.008" width="0" layer="46" curve="-90"/>
-<wire x1="4" y1="-2.5" x2="4" y2="2.008" width="0" layer="46"/>
-<wire x1="4" y1="2.008" x2="4.5" y2="2.508" width="0" layer="46" curve="-90"/>
-<wire x1="4.5" y1="2.508" x2="5" y2="2.008" width="0" layer="46" curve="-90"/>
-<wire x1="5" y1="2.008" x2="5" y2="-2.5" width="0" layer="46"/>
-<wire x1="5" y1="-2.5" x2="4.5" y2="-3" width="0" layer="46" curve="-90"/>
-<wire x1="4.5" y1="-3" x2="4" y2="-2.5" width="0" layer="46" curve="-90"/>
+<wire x1="-4.5" y1="3" x2="-4.1" y2="2.6" width="0" layer="46" curve="-90"/>
+<wire x1="-4.1" y1="2.6" x2="-4.1" y2="-2.1" width="0" layer="46"/>
+<wire x1="-4.9" y1="-2.1" x2="-4.9" y2="2.6" width="0" layer="46"/>
+<wire x1="-4.9" y1="2.6" x2="-4.5" y2="3" width="0" layer="46" curve="-90"/>
+<wire x1="4.1" y1="-2.1" x2="4.1" y2="2.6" width="0" layer="46"/>
+<wire x1="4.9" y1="2.6" x2="4.9" y2="-2.1" width="0" layer="46"/>
 <polygon width="0.1524" layer="29">
-<vertex x="-5.5" y="1.5"/>
-<vertex x="-5.5" y="-3" curve="90"/>
-<vertex x="-5" y="-3.5"/>
-<vertex x="-4" y="-3.5" curve="90"/>
-<vertex x="-3.5" y="-3"/>
-<vertex x="-3.5" y="2"/>
-<vertex x="-3.5" y="2.5" curve="90"/>
-<vertex x="-4" y="3"/>
-<vertex x="-5" y="3" curve="90"/>
-<vertex x="-5.5" y="2.5"/>
+<vertex x="-5.5" y="3"/>
+<vertex x="-5.5" y="-2.5" curve="90"/>
+<vertex x="-5" y="-3"/>
+<vertex x="-4" y="-3" curve="90"/>
+<vertex x="-3.5" y="-2.5"/>
+<vertex x="-3.5" y="3" curve="90"/>
+<vertex x="-4" y="3.5"/>
+<vertex x="-5" y="3.5" curve="90"/>
 </polygon>
 <polygon width="0.1524" layer="29">
-<vertex x="3.5" y="2"/>
-<vertex x="3.5" y="-3" curve="90"/>
-<vertex x="4" y="-3.5"/>
-<vertex x="5" y="-3.5" curve="90"/>
-<vertex x="5.5" y="-3"/>
-<vertex x="5.5" y="2.5" curve="90"/>
-<vertex x="5" y="3"/>
-<vertex x="4" y="3" curve="90"/>
-<vertex x="3.5" y="2.5"/>
+<vertex x="3.5" y="3"/>
+<vertex x="3.5" y="-2.5" curve="90"/>
+<vertex x="4" y="-3"/>
+<vertex x="5" y="-3" curve="90"/>
+<vertex x="5.5" y="-2.5"/>
+<vertex x="5.5" y="3" curve="90"/>
+<vertex x="5" y="3.5"/>
+<vertex x="4" y="3.5" curve="90"/>
 </polygon>
+<wire x1="-4.9" y1="-2.1" x2="-4.5" y2="-2.5" width="0" layer="46" curve="90"/>
+<wire x1="-4.5" y1="-2.5" x2="-4.1" y2="-2.1" width="0" layer="46" curve="90"/>
+<wire x1="4.1" y1="-2.1" x2="4.5" y2="-2.5" width="0" layer="46" curve="90"/>
+<wire x1="4.5" y1="-2.5" x2="4.9" y2="-2.1" width="0" layer="46" curve="90"/>
+<wire x1="4.1" y1="2.6" x2="4.5" y2="3" width="0" layer="46" curve="-90"/>
+<wire x1="4.5" y1="3" x2="4.9" y2="2.6" width="0" layer="46" curve="-90"/>
 </package>
 </packages>
 <symbols>
@@ -7280,7 +7277,7 @@ RobotikaBrno.cz
 Robotarna
 CC BY-SA 4.0</text>
 <text x="140.97" y="20.32" size="2.54" layer="97" font="vector" ratio="14">RobotikaBrno</text>
-<text x="171.45" y="5.08" size="2.54" layer="97" font="vector" ratio="14">v1.1</text>
+<text x="171.45" y="5.08" size="2.54" layer="97" font="vector" ratio="14">v1.2</text>
 <rectangle x1="135.370040625" y1="18.3900375" x2="135.583396875" y2="18.4002" layer="102"/>
 <rectangle x1="135.2278" y1="18.4002" x2="135.7256375" y2="18.41035625" layer="102"/>
 <rectangle x1="135.14651875" y1="18.410359375" x2="135.80691875" y2="18.420515625" layer="102"/>

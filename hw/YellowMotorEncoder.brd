@@ -55,7 +55,7 @@
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -97,7 +97,6 @@
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyZGU3NzNk" projecturn="a.cGVyc29uYWw6dWUyZDdhYTQxIzIwMjAwNDMwMjkyNzQ4MTMx" f3durn="urn:adsk.wipprod:dm.lineage:2DnN-wepS32yT8Zg-ha3BQ" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="7561e706-96b8-40f9-81ed-893ad743453b" lastsyncedrevisionid="7561e706-96b8-40f9-81ed-893ad743453b" lastboardhashguid="64c38314-5d18-17fc-49d2-e1276b3de2e7" lastpushedtime="2020-06-14T15:50:41Z" linktopcb3d="%12"/>
 <plain>
 <wire x1="15" y1="11.1" x2="2" y2="11.1" width="0.1524" layer="51"/>
 <text x="26.629" y="11.225" size="1.016" layer="51" font="vector" ratio="20" align="center-left">M-
@@ -128,8 +127,8 @@ M+</text>
 <wire x1="35.0263" y1="21.1989" x2="34.0274" y2="22.2" width="0.1524" layer="20" curve="90.0003"/>
 <wire x1="34.0274" y1="22.2" x2="1.0319" y2="22.2" width="0.1524" layer="20"/>
 <wire x1="1.0319" y1="22.2" x2="0" y2="21.2" width="0.1524" layer="20" curve="90.7707"/>
-<text x="2.229" y="13.947" size="1.27" layer="51" font="vector" ratio="20" align="center">B</text>
-<text x="2.229" y="8.447" size="1.27" layer="51" font="vector" ratio="20" align="center">A</text>
+<text x="2.229" y="14.947" size="1.27" layer="51" font="vector" ratio="20" align="center">B</text>
+<text x="2.229" y="7.447" size="1.27" layer="51" font="vector" ratio="20" align="center">A</text>
 <text x="11" y="11.1" size="1.016" layer="51" font="vector" ratio="20" align="center-left">M-
 GND
 B
@@ -2218,11 +2217,6 @@ JarekParal (2020-03-14)
 <note version="6.3" minversion="6.2.2" severity="warning">
 Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports Fusion synchronisation.
-This feature will not be available in this version and saving
-the document will break the link to the Fusion PCB feature.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library

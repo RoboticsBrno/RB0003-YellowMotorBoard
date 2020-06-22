@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 32)
+    (drawings 34)
     (tracks 95)
     (zones 0)
     (modules 22)
@@ -787,6 +787,8 @@
       (net 5 M+) (solder_mask_margin 0.1524))
   )
 
+  (gr_poly (pts (xy 160.2 96.8) (xy 156.8 96.8) (xy 156.8 95.4) (xy 160.2 95.4)) (layer F.Mask) (width 0.1) (tstamp 5EF05C86))
+  (gr_poly (pts (xy 160.2 114.6) (xy 156.8 114.6) (xy 156.8 113.2) (xy 160.2 113.2)) (layer F.Mask) (width 0.1))
   (gr_line (start 145.98795 105.003727) (end 132.98795 105.003727) (layer F.SilkS) (width 0.1524))
   (gr_text "M-\nGND\nB\nA\nVCC\nM+" (at 157.61695 104.878727) (layer F.SilkS)
     (effects (font (size 0.8128 0.8128) (thickness 0.2032)) (justify left))

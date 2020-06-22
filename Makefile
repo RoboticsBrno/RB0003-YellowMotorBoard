@@ -5,7 +5,7 @@ all:  build/web/index.html
 
 build/YellowMotorEncoder.kicad_pcb: 
 	kikit panelize grid --space 2 --gridsize 4 2 --tabwidth 5.0 --tabheight 5.0 \
-		--htabs 1 --vtabs 2 --radius 0.5 --mousebites 0.25 1.0 0.25 \
+		--htabs 1 --vtabs 1 --radius 0.5 --mousebites 0.5 0.75 0.25 \
 		hw/kicad_export/YellowMotorEncoder.kicad_pcb build/YellowMotorEncoder-panel.kicad_pcb
 
 

@@ -1,0 +1,27 @@
+#VRML V2.0 utf8
+
+
+Group {
+  children 
+    DEF o0 Group {
+      children 
+        DEF o1 Group {
+          children 
+            DEF o2 Transform {
+              translation 0 0 25.1
+              rotation 0 0 1  0
+              scale 1 1 1
+              scaleOrientation 0 0 1  0
+              center 0 0 0
+              children 
+                DEF o3 Group {
+
+                }
+
+            }
+
+        }
+
+    }
+
+}

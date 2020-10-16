@@ -1,0 +1,940 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2400 6500 2400 6300
+Text Label 2400 6500 0    10   ~ 0
+GND
+Wire Wire Line
+	3200 6500 3200 6300
+Text Label 3200 6500 0    10   ~ 0
+GND
+Wire Wire Line
+	5450 2500 5450 2600
+Text Label 5450 2500 0    10   ~ 0
+GND
+Wire Wire Line
+	6500 4450 6500 4050
+Text Label 6500 4450 0    10   ~ 0
+GND
+Wire Wire Line
+	8500 4450 8500 4050
+Text Label 8500 4450 0    10   ~ 0
+GND
+Wire Wire Line
+	7400 4150 7400 4450
+Text Label 7400 4150 0    10   ~ 0
+GND
+Wire Wire Line
+	6200 4350 6200 4450
+Text Label 6200 4350 0    10   ~ 0
+GND
+Wire Wire Line
+	8200 4350 8200 4450
+Text Label 8200 4350 0    10   ~ 0
+GND
+Text Label 2800 2250 0    70   ~ 0
+GND
+Wire Wire Line
+	2700 4450 2700 4050
+Text Label 2700 4450 0    10   ~ 0
+GND
+Wire Wire Line
+	4700 4450 4700 4050
+Text Label 4700 4450 0    10   ~ 0
+GND
+Wire Wire Line
+	3600 4150 3600 4450
+Text Label 3600 4150 0    10   ~ 0
+GND
+Wire Wire Line
+	2400 4350 2400 4450
+Text Label 2400 4350 0    10   ~ 0
+GND
+Wire Wire Line
+	4400 4350 4400 4450
+Text Label 4400 4350 0    10   ~ 0
+GND
+Wire Wire Line
+	8500 2550 8500 2650
+Text Label 8500 2550 0    10   ~ 0
+GND
+Wire Wire Line
+	9500 2250 9500 2650
+Text Label 9500 2250 0    10   ~ 0
+GND
+Wire Wire Line
+	2700 2150 3000 2150
+Text Label 2800 2050 0    70   ~ 0
+B
+Wire Wire Line
+	7450 2250 7300 2250
+Text Label 7300 2250 2    70   ~ 0
+B
+Wire Wire Line
+	2700 2050 3000 2050
+Text Label 2800 2150 0    70   ~ 0
+A
+Wire Wire Line
+	7450 1850 7300 1850
+Text Label 7300 1850 2    70   ~ 0
+A
+Wire Wire Line
+	3000 5800 3200 5800
+Wire Wire Line
+	3200 5800 3200 6000
+Wire Wire Line
+	3000 5250 3200 5250
+Text Label 3200 5800 2    70   ~ 0
+M-
+Wire Wire Line
+	2700 2350 3000 2350
+Text Label 2800 2350 0    70   ~ 0
+M-
+Wire Wire Line
+	2700 5800 2400 5800
+Wire Wire Line
+	2400 5800 2400 6000
+Wire Wire Line
+	2600 5250 2400 5250
+Text Label 2400 5800 0    70   ~ 0
+M+
+Wire Wire Line
+	2700 1850 3000 1850
+Text Label 2800 1850 0    70   ~ 0
+M+
+Wire Wire Line
+	6200 3250 6500 3250
+Wire Wire Line
+	8200 3250 8500 3250
+Wire Wire Line
+	8500 3250 8500 3850
+Wire Wire Line
+	6500 3850 6500 3250
+Wire Wire Line
+	6200 3450 6200 3250
+Wire Wire Line
+	8200 3450 8200 3250
+Wire Wire Line
+	6500 3250 7400 3250
+Wire Wire Line
+	7400 3250 8200 3250
+Wire Wire Line
+	7400 3850 7400 3250
+Wire Wire Line
+	2400 3250 2700 3250
+Wire Wire Line
+	4400 3250 4700 3250
+Wire Wire Line
+	4700 3250 4700 3850
+Wire Wire Line
+	2700 3850 2700 3250
+Wire Wire Line
+	2400 3450 2400 3250
+Wire Wire Line
+	4400 3450 4400 3250
+Wire Wire Line
+	2700 3250 3600 3250
+Wire Wire Line
+	3600 3250 4400 3250
+Wire Wire Line
+	3600 3850 3600 3250
+Wire Wire Line
+	6200 3250 4700 3250
+Connection ~ 6500 3250
+Connection ~ 6200 3250
+Connection ~ 8200 3250
+Connection ~ 7400 3250
+Connection ~ 2700 3250
+Connection ~ 4400 3250
+Connection ~ 4700 3250
+Connection ~ 3600 3250
+Wire Wire Line
+	5450 1500 5450 1700
+Text Label 5450 1500 0    10   ~ 0
+VCC
+Wire Wire Line
+	5950 1500 5950 1700
+Text Label 5950 1500 0    10   ~ 0
+VCC
+Wire Wire Line
+	6450 1500 6450 1700
+Text Label 6450 1500 0    10   ~ 0
+VCC
+Wire Wire Line
+	8500 1500 8500 1550
+Text Label 8500 1500 0    10   ~ 0
+VCC
+Wire Wire Line
+	3850 1950 4150 1950
+Wire Wire Line
+	9500 1500 9500 1950
+Text Label 9500 1500 0    10   ~ 0
+VCC
+Wire Wire Line
+	5450 2000 5450 2100
+Wire Wire Line
+	6450 2000 6450 2100
+Wire Wire Line
+	5950 2000 5950 2100
+Wire Wire Line
+	2700 3950 2400 3950
+Wire Wire Line
+	2400 3950 2200 3950
+Wire Wire Line
+	2400 3950 2400 3850
+Wire Wire Line
+	2400 4050 2400 3950
+Text Label 2200 3950 0    70   ~ 0
+A0
+Connection ~ 2400 3950
+Wire Wire Line
+	9000 1950 9150 1950
+Wire Wire Line
+	4700 3950 4400 3950
+Wire Wire Line
+	4400 3950 4100 3950
+Wire Wire Line
+	4400 3850 4400 3950
+Wire Wire Line
+	4400 4050 4400 3950
+Text Label 4100 3950 0    70   ~ 0
+A1
+Connection ~ 4400 3950
+Wire Wire Line
+	9000 1850 9150 1850
+Wire Wire Line
+	6500 3950 6200 3950
+Wire Wire Line
+	6200 3950 6000 3950
+Wire Wire Line
+	6200 3950 6200 3850
+Text Label 6000 3950 0    70   ~ 0
+B0
+Connection ~ 6200 3950
+Wire Wire Line
+	9000 2250 9150 2250
+Wire Wire Line
+	8500 3950 8200 3950
+Wire Wire Line
+	8200 3950 7900 3950
+Wire Wire Line
+	8200 3850 8200 3950
+Wire Wire Line
+	8200 4050 8200 3950
+Text Label 7900 3950 0    70   ~ 0
+B1
+Connection ~ 8200 3950
+Wire Wire Line
+	9000 2150 9150 2150
+Wire Wire Line
+	2700 1950 3250 1950
+Wire Wire Line
+	7850 2250 8000 2250
+Text Label 7850 2250 0    70   ~ 0
+~B
+Wire Wire Line
+	6450 2500 6450 2700
+Text Label 6450 2600 1    70   ~ 0
+~B
+Wire Wire Line
+	8000 1850 7850 1850
+Text Label 7850 1850 0    70   ~ 0
+~A
+Wire Wire Line
+	5950 2500 5950 2700
+Text Label 5950 2600 1    70   ~ 0
+~A
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:SN74LVC2G86DCTR U26
+U 1 1 5F83AE4E
+P 8500 2050
+F 0 "U26" H 8150 1550 69  0000 L BNN
+F 1 "SN74LVC2G86DCTR" H 8700 1550 69  0000 L BNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 8500 2050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-SN74LVC2G86DCTR_C130023.pdf" H 8500 2050 50  0001 C CNN
+F 4 "C130023" H 8500 2050 50  0001 C CNN "LCSC"
+	1    8500 2050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:GND #U0101
+U 1 1 5F83AE54
+P 6500 4550
+F 0 "#U0101" H 6500 4550 50  0001 C CNN
+F 1 "GND" H 6400 4450 59  0000 L BNN
+F 2 "" H 6500 4550 50  0001 C CNN
+F 3 "" H 6500 4550 50  0001 C CNN
+	1    6500 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:GND #U0102
+U 1 1 5F83AE5A
+P 8500 4550
+F 0 "#U0102" H 8500 4550 50  0001 C CNN
+F 1 "GND" H 8400 4450 59  0000 L BNN
+F 2 "" H 8500 4550 50  0001 C CNN
+F 3 "" H 8500 4550 50  0001 C CNN
+	1    8500 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:GND #U0103
+U 1 1 5F83AE60
+P 2400 6600
+F 0 "#U0103" H 2400 6600 50  0001 C CNN
+F 1 "GND" H 2300 6500 59  0000 L BNN
+F 2 "" H 2400 6600 50  0001 C CNN
+F 3 "" H 2400 6600 50  0001 C CNN
+	1    2400 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:GND #U0104
+U 1 1 5F83AE66
+P 3200 6600
+F 0 "#U0104" H 3200 6600 50  0001 C CNN
+F 1 "GND" H 3100 6500 59  0000 L BNN
+F 2 "" H 3200 6600 50  0001 C CNN
+F 3 "" H 3200 6600 50  0001 C CNN
+	1    3200 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:R-EU_R0402 U10
+U 1 1 5F83AE75
+P 5450 2300
+F 0 "U10" H 5300 2359 59  0000 L BNN
+F 1 "10k" H 5300 2170 59  0000 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5450 2300 50  0001 C CNN
+F 3 "" H 5450 2300 50  0001 C CNN
+F 4 "C25744" H 5450 2300 59  0001 L BNN "LCSC"
+	1    5450 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:LEDCHIPLED_0603 U9
+U 1 1 5F83AE88
+P 5450 1800
+F 0 "U9" V 5590 1620 59  0000 L BNN
+F 1 "GREEN" V 5675 1620 59  0000 L BNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 5450 1800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" H 5450 1800 50  0001 C CNN
+F 4 "C72043" V 5450 1800 59  0001 L BNN "LCSC"
+	1    5450 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:GND #U0105
+U 1 1 5F83AE8E
+P 5450 2700
+F 0 "#U0105" H 5450 2700 50  0001 C CNN
+F 1 "GND" H 5350 2600 59  0000 L BNN
+F 2 "" H 5450 2700 50  0001 C CNN
+F 3 "" H 5450 2700 50  0001 C CNN
+	1    5450 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:GND #U0106
+U 1 1 5F83AE94
+P 7400 4550
+F 0 "#U0106" H 7400 4550 50  0001 C CNN
+F 1 "GND" H 7300 4450 59  0000 L BNN
+F 2 "" H 7400 4550 50  0001 C CNN
+F 3 "" H 7400 4550 50  0001 C CNN
+	1    7400 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:GND #U0107
+U 1 1 5F83AEAA
+P 6200 4550
+F 0 "#U0107" H 6200 4550 50  0001 C CNN
+F 1 "GND" H 6100 4450 59  0000 L BNN
+F 2 "" H 6200 4550 50  0001 C CNN
+F 3 "" H 6200 4550 50  0001 C CNN
+	1    6200 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:GND #U0108
+U 1 1 5F83AEB0
+P 8200 4550
+F 0 "#U0108" H 8200 4550 50  0001 C CNN
+F 1 "GND" H 8100 4450 59  0000 L BNN
+F 2 "" H 8200 4550 50  0001 C CNN
+F 3 "" H 8200 4550 50  0001 C CNN
+	1    8200 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:VCC #U0109
+U 1 1 5F83AEBC
+P 5450 1400
+F 0 "#U0109" H 5450 1400 50  0001 C CNN
+F 1 "VCC" V 5350 1300 59  0000 L BNN
+F 2 "" H 5450 1400 50  0001 C CNN
+F 3 "" H 5450 1400 50  0001 C CNN
+	1    5450 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:VCC #U0110
+U 1 1 5F83AEC2
+P 5950 1400
+F 0 "#U0110" H 5950 1400 50  0001 C CNN
+F 1 "VCC" V 5850 1300 59  0000 L BNN
+F 2 "" H 5950 1400 50  0001 C CNN
+F 3 "" H 5950 1400 50  0001 C CNN
+	1    5950 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:VCC #U0111
+U 1 1 5F83AEC8
+P 6450 1400
+F 0 "#U0111" H 6450 1400 50  0001 C CNN
+F 1 "VCC" V 6350 1300 59  0000 L BNN
+F 2 "" H 6450 1400 50  0001 C CNN
+F 3 "" H 6450 1400 50  0001 C CNN
+	1    6450 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:MH253ESO U27
+U 1 1 5F83AED4
+P 7100 3950
+F 0 "U27" H 7000 4150 59  0000 L BNN
+F 1 "MH253ESO" H 7000 3680 59  0000 L BNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7100 3950 50  0001 C CNN
+F 3 "" H 7100 3950 50  0001 C CNN
+	1    7100 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:C-EUC0805 U6
+U 1 1 5F83AF76
+P 3200 6100
+F 0 "U6" H 3260 6115 59  0000 L BNN
+F 1 "330n/50V" H 3260 5915 59  0000 L BNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3200 6100 50  0001 C CNN
+F 3 "" H 3200 6100 50  0001 C CNN
+F 4 "C1740" H 3200 6100 59  0001 L BNN "LCSC"
+	1    3200 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:GND #U0112
+U 1 1 5F83AF8C
+P 2700 4550
+F 0 "#U0112" H 2700 4550 50  0001 C CNN
+F 1 "GND" H 2600 4450 59  0000 L BNN
+F 2 "" H 2700 4550 50  0001 C CNN
+F 3 "" H 2700 4550 50  0001 C CNN
+	1    2700 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:GND #U0113
+U 1 1 5F83AF92
+P 4700 4550
+F 0 "#U0113" H 4700 4550 50  0001 C CNN
+F 1 "GND" H 4600 4450 59  0000 L BNN
+F 2 "" H 4700 4550 50  0001 C CNN
+F 3 "" H 4700 4550 50  0001 C CNN
+	1    4700 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:GND #U0114
+U 1 1 5F83AF98
+P 3600 4550
+F 0 "#U0114" H 3600 4550 50  0001 C CNN
+F 1 "GND" H 3500 4450 59  0000 L BNN
+F 2 "" H 3600 4550 50  0001 C CNN
+F 3 "" H 3600 4550 50  0001 C CNN
+	1    3600 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:C-EUC0402 U2
+U 1 1 5F83AFA8
+P 2400 4150
+F 0 "U2" H 2460 4165 59  0000 L BNN
+F 1 "18p/50V" H 2460 3965 59  0000 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2400 4150 50  0001 C CNN
+F 3 "" H 2400 4150 50  0001 C CNN
+F 4 "C1549" H 2400 4150 59  0001 L BNN "LCSC"
+	1    2400 4150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:GND #U0115
+U 1 1 5F83AFAE
+P 2400 4550
+F 0 "#U0115" H 2400 4550 50  0001 C CNN
+F 1 "GND" H 2300 4450 59  0000 L BNN
+F 2 "" H 2400 4550 50  0001 C CNN
+F 3 "" H 2400 4550 50  0001 C CNN
+	1    2400 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:GND #U0116
+U 1 1 5F83AFB4
+P 4400 4550
+F 0 "#U0116" H 4400 4550 50  0001 C CNN
+F 1 "GND" H 4300 4450 59  0000 L BNN
+F 2 "" H 4400 4550 50  0001 C CNN
+F 3 "" H 4400 4550 50  0001 C CNN
+	1    4400 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:GND #U0117
+U 1 1 5F83B004
+P 8500 2750
+F 0 "#U0117" H 8500 2750 50  0001 C CNN
+F 1 "GND" H 8400 2650 59  0000 L BNN
+F 2 "" H 8500 2750 50  0001 C CNN
+F 3 "" H 8500 2750 50  0001 C CNN
+	1    8500 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:VCC #U0118
+U 1 1 5F83B00A
+P 8500 1400
+F 0 "#U0118" H 8500 1400 50  0001 C CNN
+F 1 "VCC" V 8400 1300 59  0000 L BNN
+F 2 "" H 8500 1400 50  0001 C CNN
+F 3 "" H 8500 1400 50  0001 C CNN
+	1    8500 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:YELLOW_MOTORV2 U4
+U 1 1 5F83B010
+P 2800 5250
+F 0 "U4" H 2800 5250 50  0001 C CNN
+F 1 "YELLOW_MOTORV2" H 2800 5250 50  0001 C CNN
+F 2 "YellowMotorEncoder_v2:MDCM" H 2800 5250 50  0001 C CNN
+F 3 "" H 2800 5250 50  0001 C CNN
+	1    2800 5250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:C-EUC0402 U28
+U 1 1 5F83B026
+P 9500 2050
+F 0 "U28" H 9560 2065 59  0000 L BNN
+F 1 "22n/50V" H 9560 1865 59  0000 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9500 2050 50  0001 C CNN
+F 3 "" H 9500 2050 50  0001 C CNN
+F 4 "C1532" H 9500 2050 50  0001 C CNN "LCSC"
+	1    9500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:GND #U0119
+U 1 1 5F83B02C
+P 9500 2750
+F 0 "#U0119" H 9500 2750 50  0001 C CNN
+F 1 "GND" H 9400 2650 59  0000 L BNN
+F 2 "" H 9500 2750 50  0001 C CNN
+F 3 "" H 9500 2750 50  0001 C CNN
+	1    9500 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:VCC #U0120
+U 1 1 5F83B032
+P 9500 1400
+F 0 "#U0120" H 9500 1400 50  0001 C CNN
+F 1 "VCC" V 9400 1300 59  0000 L BNN
+F 2 "" H 9500 1400 50  0001 C CNN
+F 3 "" H 9500 1400 50  0001 C CNN
+	1    9500 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:R-EU_R0402 U22
+U 1 1 5F83B041
+P 7650 1850
+F 0 "U22" H 7500 1909 59  0000 L BNN
+F 1 "200" H 7500 1720 59  0000 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7650 1850 50  0001 C CNN
+F 3 "" H 7650 1850 50  0001 C CNN
+F 4 "C25087" H 7650 1850 59  0001 L BNN "LCSC"
+	1    7650 1850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2700 2250 3250 2250
+$Comp
+L Connector_Generic:Conn_01x06 J1
+U 1 1 5F85523D
+P 2500 2150
+F 0 "J1" H 2418 1625 50  0000 C CNN
+F 1 "Conn_01x06" H 2418 1716 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical" H 2500 2150 50  0001 C CNN
+F 3 "~" H 2500 2150 50  0001 C CNN
+	1    2500 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_FET:AO3401A Q1
+U 1 1 5F873591
+P 3650 2050
+F 0 "Q1" V 3992 2050 50  0000 C CNN
+F 1 "AO3401A" V 3901 2050 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3850 1975 50  0001 L CIN
+F 3 "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf" H 3650 2050 50  0001 L CNN
+	1    3650 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5F87A40C
+P 3250 1950
+F 0 "#FLG0101" H 3250 2025 50  0001 C CNN
+F 1 "PWR_FLAG" V 3350 2200 50  0000 C CNN
+F 2 "" H 3250 1950 50  0001 C CNN
+F 3 "~" H 3250 1950 50  0001 C CNN
+	1    3250 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5F8822F8
+P 3250 2250
+F 0 "#FLG0102" H 3250 2325 50  0001 C CNN
+F 1 "PWR_FLAG" H 3250 2423 50  0000 C CNN
+F 2 "" H 3250 2250 50  0001 C CNN
+F 3 "~" H 3250 2250 50  0001 C CNN
+	1    3250 2250
+	1    0    0    -1  
+$EndComp
+Connection ~ 3250 1950
+Wire Wire Line
+	3250 1950 3450 1950
+Connection ~ 3250 2250
+Wire Wire Line
+	3250 2250 3650 2250
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:R-EU_R0402 U23
+U 1 1 5F8619A9
+P 7650 2250
+F 0 "U23" H 7500 2309 59  0000 L BNN
+F 1 "200" H 7500 2120 59  0000 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7650 2250 50  0001 C CNN
+F 3 "" H 7650 2250 50  0001 C CNN
+F 4 "C25087" H 7650 2250 59  0001 L BNN "LCSC"
+	1    7650 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:R-EU_R0402 U24
+U 1 1 5F8679BE
+P 6200 3650
+F 0 "U24" H 6050 3709 59  0000 L BNN
+F 1 "47k" H 6050 3520 59  0000 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6200 3650 50  0001 C CNN
+F 3 "" H 6200 3650 50  0001 C CNN
+F 4 "C25792" H 6200 3650 59  0001 L BNN "LCSC"
+	1    6200 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:MH253ESO U20
+U 1 1 5F86AC81
+P 5300 3950
+F 0 "U20" H 5200 4150 59  0000 L BNN
+F 1 "MH253ESO" H 5200 3680 59  0000 L BNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5300 3950 50  0001 C CNN
+F 3 "" H 5300 3950 50  0001 C CNN
+	1    5300 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:MH253ESO U17
+U 1 1 5F86BD7E
+P 9100 3950
+F 0 "U17" H 9000 4150 59  0000 L BNN
+F 1 "MH253ESO" H 9000 3680 59  0000 L BNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9100 3950 50  0001 C CNN
+F 3 "" H 9100 3950 50  0001 C CNN
+	1    9100 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:MH253ESO U7
+U 1 1 5F86D331
+P 3300 3950
+F 0 "U7" H 3200 4150 59  0000 L BNN
+F 1 "MH253ESO" H 3200 3680 59  0000 L BNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3300 3950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Magnesensor-Tech-MST-MH253ESO_C114369.pdf" H 3300 3950 50  0001 C CNN
+F 4 "C114369" H 3300 3950 50  0001 C CNN "LCSC"
+	1    3300 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:C-EUC0402 U12
+U 1 1 5F8749CE
+P 8200 4150
+F 0 "U12" H 8260 4165 59  0000 L BNN
+F 1 "18p/50V" H 8260 3965 59  0000 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8200 4150 50  0001 C CNN
+F 3 "" H 8200 4150 50  0001 C CNN
+F 4 "C1549" H 8200 4150 59  0001 L BNN "LCSC"
+	1    8200 4150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:C-EUC0402 U19
+U 1 1 5F8754D9
+P 4400 4150
+F 0 "U19" H 4460 4165 59  0000 L BNN
+F 1 "18p/50V" H 4460 3965 59  0000 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4400 4150 50  0001 C CNN
+F 3 "" H 4400 4150 50  0001 C CNN
+F 4 "C1549" H 4400 4150 59  0001 L BNN "LCSC"
+	1    4400 4150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:C-EUC0402 U21
+U 1 1 5F877689
+P 7400 3950
+F 0 "U21" H 7250 3950 59  0000 L BNN
+F 1 "22n/50V" H 6950 3750 59  0000 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7400 3950 50  0001 C CNN
+F 3 "" H 7400 3950 50  0001 C CNN
+F 4 "C1532" H 7400 3950 59  0001 L BNN "LCSC"
+	1    7400 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:C-EUC0402 U8
+U 1 1 5F87E41E
+P 3600 3950
+F 0 "U8" H 3450 3950 59  0000 L BNN
+F 1 "22n/50V" H 3150 3750 59  0000 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3600 3950 50  0001 C CNN
+F 3 "" H 3600 3950 50  0001 C CNN
+F 4 "C1532" H 3600 3950 59  0001 L BNN "LCSC"
+	1    3600 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:LEDCHIPLED_0603 U13
+U 1 1 5F884C6E
+P 5950 1800
+F 0 "U13" V 6090 1620 59  0000 L BNN
+F 1 "BLUE" V 6175 1620 59  0000 L BNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 5950 1800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Everlight-Elec-19-217-BHC-ZL1M2RY-3T_C72041.pdf" H 5950 1800 50  0001 C CNN
+F 4 "C72041" V 5950 1800 59  0001 L BNN "LCSC"
+	1    5950 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:LEDCHIPLED_0603 U15
+U 1 1 5F885A7C
+P 6450 1800
+F 0 "U15" V 6590 1620 59  0000 L BNN
+F 1 "BLUE" V 6675 1620 59  0000 L BNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 6450 1800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Everlight-Elec-19-217-BHC-ZL1M2RY-3T_C72041.pdf" H 6450 1800 50  0001 C CNN
+F 4 "C72041" V 6450 1800 59  0001 L BNN "LCSC"
+	1    6450 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:R-EU_R0402 U14
+U 1 1 5F888F04
+P 5950 2300
+F 0 "U14" H 5800 2359 59  0000 L BNN
+F 1 "10k" H 5800 2170 59  0000 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5950 2300 50  0001 C CNN
+F 3 "" H 5950 2300 50  0001 C CNN
+F 4 "C25744" H 5950 2300 59  0001 L BNN "LCSC"
+	1    5950 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:R-EU_R0402 U16
+U 1 1 5F889B2B
+P 6450 2300
+F 0 "U16" H 6300 2359 59  0000 L BNN
+F 1 "10k" H 6300 2170 59  0000 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6450 2300 50  0001 C CNN
+F 3 "" H 6450 2300 50  0001 C CNN
+F 4 "C25744" H 6450 2300 59  0001 L BNN "LCSC"
+	1    6450 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:C-EUC0805 U3
+U 1 1 5F88A370
+P 2400 6100
+F 0 "U3" H 2460 6115 59  0000 L BNN
+F 1 "330n/50V" H 2460 5915 59  0000 L BNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2400 6100 50  0001 C CNN
+F 3 "" H 2400 6100 50  0001 C CNN
+F 4 "C1740" H 2400 6100 59  0001 L BNN "LCSC"
+	1    2400 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:C-EUC0805 U5
+U 1 1 5F88AB01
+P 2900 5800
+F 0 "U5" H 2950 5600 59  0000 L BNN
+F 1 "330n/50V" H 2950 5850 59  0000 L BNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2900 5800 50  0001 C CNN
+F 3 "" H 2900 5800 50  0001 C CNN
+F 4 "C1740" H 2900 5800 59  0001 L BNN "LCSC"
+	1    2900 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:R-EU_R0402 U18
+U 1 1 5F8A9DF8
+P 4400 3650
+F 0 "U18" H 4250 3709 59  0000 L BNN
+F 1 "47k" H 4250 3520 59  0000 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4400 3650 50  0001 C CNN
+F 3 "" H 4400 3650 50  0001 C CNN
+F 4 "C25792" H 4400 3650 59  0001 L BNN "LCSC"
+	1    4400 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:R-EU_R0402 U11
+U 1 1 5F8AAAB3
+P 8200 3650
+F 0 "U11" H 8050 3709 59  0000 L BNN
+F 1 "47k" H 8050 3520 59  0000 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 8200 3650 50  0001 C CNN
+F 3 "" H 8200 3650 50  0001 C CNN
+F 4 "C25792" H 8200 3650 59  0001 L BNN "LCSC"
+	1    8200 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:R-EU_R0402 U1
+U 1 1 5F8AB6B8
+P 2400 3650
+F 0 "U1" H 2250 3709 59  0000 L BNN
+F 1 "47k" H 2250 3520 59  0000 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2400 3650 50  0001 C CNN
+F 3 "" H 2400 3650 50  0001 C CNN
+F 4 "C25792" H 2400 3650 59  0001 L BNN "LCSC"
+	1    2400 3650
+	0    -1   -1   0   
+$EndComp
+Text Label 9050 2250 0    70   ~ 0
+B0
+Text Label 9050 2150 0    70   ~ 0
+B1
+Text Label 9050 1950 0    70   ~ 0
+A0
+Text Label 9050 1850 0    70   ~ 0
+A1
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:VCC #U0121
+U 1 1 5F894BB9
+P 2400 3050
+F 0 "#U0121" H 2400 3050 50  0001 C CNN
+F 1 "VCC" V 2300 2950 59  0000 L BNN
+F 2 "" H 2400 3050 50  0001 C CNN
+F 3 "" H 2400 3050 50  0001 C CNN
+	1    2400 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:VCC #U0122
+U 1 1 5F895B89
+P 4150 1800
+F 0 "#U0122" H 4150 1800 50  0001 C CNN
+F 1 "VCC" V 4050 1700 59  0000 L BNN
+F 2 "" H 4150 1800 50  0001 C CNN
+F 3 "" H 4150 1800 50  0001 C CNN
+	1    4150 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 1950 4150 1900
+Wire Wire Line
+	2400 3250 2400 3150
+Connection ~ 2400 3250
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:GND #U0123
+U 1 1 5F8D60AD
+P 2800 5550
+F 0 "#U0123" H 2800 5550 50  0001 C CNN
+F 1 "GND" H 2700 5450 59  0000 L BNN
+F 2 "" H 2800 5550 50  0001 C CNN
+F 3 "" H 2800 5550 50  0001 C CNN
+	1    2800 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 5250 3200 5800
+Connection ~ 3200 5800
+Wire Wire Line
+	2400 5250 2400 5800
+Connection ~ 2400 5800
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5F887E9F
+P 3000 2350
+F 0 "#FLG0103" H 3000 2425 50  0001 C CNN
+F 1 "PWR_FLAG" V 3000 2650 50  0000 C CNN
+F 2 "" H 3000 2350 50  0001 C CNN
+F 3 "~" H 3000 2350 50  0001 C CNN
+	1    3000 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5F88854C
+P 3000 1850
+F 0 "#FLG0104" H 3000 1925 50  0001 C CNN
+F 1 "PWR_FLAG" H 2850 2000 50  0000 C CNN
+F 2 "" H 3000 1850 50  0001 C CNN
+F 3 "~" H 3000 1850 50  0001 C CNN
+	1    3000 1850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6200 4050 6200 3950
+$Comp
+L YellowMotorEncoder_v2.0-eagle-import:C-EUC0402 U25
+U 1 1 5F876094
+P 6200 4150
+F 0 "U25" H 6260 4165 59  0000 L BNN
+F 1 "18p/50V" H 6260 3965 59  0000 L BNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6200 4150 50  0001 C CNN
+F 3 "" H 6200 4150 50  0001 C CNN
+F 4 "C1549" H 6200 4150 59  0001 L BNN "LCSC"
+	1    6200 4150
+	-1   0    0    -1  
+$EndComp
+$EndSCHEMATC
